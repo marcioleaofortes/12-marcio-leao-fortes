@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 120px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="eu.rosto.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#experience" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Márcio Leão Fortes</h1>
+    <p>Software QA Engineer</p>
+    <img src="eu.rosto.png" alt="boy" class="w3-image" width="200" height="300">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> 
+        <li>🙋🏽‍♂️ I'm a Software QA Engineer passionate about finding bugs in softwares and people's minds :p </li>
+        <li>📚 I'm always up for a challenge and my rule is: "Never stop learning!"</li>
+        <li>🚀 Focused on creating collaborative efforts between developers and engineering teams in a fast-paced changing environment, making you quickly adapt to new circumstances or daily tasks and deadlines.</li>
+        <li>🏆 Determined to make sure that each product/feature has the highest quality possible for the benefit of the end user.</li>
+        <li>👨🏼‍💻 I'm able to conduct a diverse range of tests, including functional, UI, API, smoke, Database and regression testing, for web and mobile applications. My role involves not only creating and executing meticulous test cases but also automating them to streamline the testing process. In addition, I write easily reproducible bug reports that facilitate the swift resolution of any identified issues. My vigilant monitoring and follow-up ensure that any potential problems are satisfactorily resolved.</li>
+        <li>👥 Able to work under pressure with offshore teams in multiple time zones.</li>
+        
+    
+      <h3 class="w3-padding-16 w3-text-light-grey">Professional Skills</h3>
+      <ul class="professional">
+        <li>Leadership</li>
+        <li>Team Management</li>
+        <li>Client Server Architecture</li>
+        <li>SDLC</li>
+        <li>API Testing</li>
+        <li>Bash scripting</li>
+        <li>SQL</li>
+        <li>JIRA</li>
+        <li>Agile environment</li>
+        <li>Scrum</li>
+        <li>HTML and CSS</li>
+        <li>JS - Javascript</li>
+        <li>NodeJS</li>
+        <li>Github Actions</li>
+      </ul>
+
+      <h3 class="w3-padding-16 w3-text-light-grey">Personal Skills</h3>
+
+      <ul class="personal">
+        <li>Good-humored</li>
+        <li>Critical thinking</li>
+        <li>Productivity and time management</li>
+        <li>Sharp attention to details</li>
+        <li>Focus and commitment to deadlines.</li>
+        <li>Soft Skills</li>
+        <li>Fast learner</li>
+        <li>Motivation</li>
+        
+      </ul>
+
+      <h3 class="w3-padding-16 w3-text-light-grey">Tools</h3>
+    
+      <ul class="tools">
+        <li>API Testing: REST API, Postman, Insomnia, Chrome DevTools</li>
+        <li>Bug Tracking: JIRA</li>
+        <li>Test Cases: Qase, TestRail</li>
+        <li>Code repository: GitHub</li>
+        <li>Mobile Testing: Testflight</li>
+        <li>Database: MySQL</li>
+        <li>Visual Studio Code</li>
+        <li>Automation: Cypress, WebdriverIO, Jest, Axios</li>
+        <li>CI/CD: GitHub Actions</li>
+      </ul>
+    
+    </p>
+
+
+    <a href="https://drive.google.com/file/d/17Fbrac6C74p1_UdDDVKvWKbzckXH1wRo/view?usp=share_link" target="blank">
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+          <i class="fa fa-download"></i> Download Resume
+        </button>
+        </a>
+    
+       
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="experience">
+    <h2 class="w3-text-light-grey">Work Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> São Sebastião do Caí/RS, Brazil</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +55 51 99648-2580</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: marcioleaofortes@gmail.com</p>
+    </div><br>
+
+        
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+    <i class="fa fa-linkedin w3-text-blue"></i>
+   
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
